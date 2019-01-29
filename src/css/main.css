@@ -1,0 +1,48 @@
+/* 公共样式 */
+html {
+  background: #ff50ac;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+/* PC规则，桌面版，desktop */
+.desktop {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.desktop-header {
+  overflow: hidden;/* BFC */
+  height: 86px;
+  line-height: 86px;
+  width: 100%;
+}
+.desktop-header-r nav ul li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 12px;
+}
+.desktop-header-r a {
+  color: #fff;
+  text-decoration: none;
+}
+.desktop-nav-active {
+  position: relative;
+  border-top: solid;
+  border-color: #fff;
+  border-width: 4px;/* 这里的4px会导致整体的变高4px，如何解决呢？ */
+}
+.mobile {
+  display: none;
+}
+/* 媒体查询断点，移动端规则 */
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
