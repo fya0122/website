@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "postcss-px2rem": "^0.3.0"
   }
 }
