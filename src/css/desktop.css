@@ -43,3 +43,92 @@
 .mobile {
   display: none;
 }
+.desktop-content {
+  display: table;
+  margin: 0 auto;
+  width: 850px;
+}
+.desktop-content-download, .desktop-content-preview {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+.desktop-content-download {
+  padding-top: 130px;
+}
+.slogan-top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.slogan-top, .slogan-bottom {
+  display: inline-block;
+}
+.slogan-top img {
+  width: 222px;
+  height: 87px;
+  margin-bottom: 10px;
+}
+.slogan-top p {
+  opacity: 0.5;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.slogan-bottom {
+  text-align: left;
+  position: relative;
+}
+.slogan-bottom::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  width: 7px;
+  height: 100%;
+  background: #fff;
+  border-radius: 100px;
+}
+.slogan-bottom p {
+  margin-left: 22px;
+  color: #fff;
+}
+.slogan-bottom p:first-child {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.slogan-bottom p:last-child {
+  font-size: 16px;
+}
+.desktop-btns {
+  margin-top: 60px;
+}
+.desktop-btn {
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  background: #fff;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.20);
+  border-radius: 100px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-weight: 800;
+}
+.desktop-btn-logo {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 8.5px;
+  vertical-align: middle;
+}
+.appstore-logo {
+  background: url('../img/demo-appstore-logo.png') no-repeat;
+  background-size: 100% 100%;
+}
+.android-logo {
+  background: url('../img/demo-googleplay-logo.png') no-repeat;
+  background-size: 100% 100%;
+}
