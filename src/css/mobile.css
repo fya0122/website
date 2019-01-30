@@ -1,0 +1,16 @@
+/* 媒体查询断点，移动端规则 */
+@media screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .mobile-nav {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 96px;
+  }
+}

@@ -6,7 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/desktop.css">
+  <!-- 因为经过了gulp的处理，那么我们不在引入css下的，而是dist下的 -->
+  <link rel="stylesheet" href="./../dist/css/mobile.css">
   <!-- 考虑到我们要第一时间渲染rem，则不采用引入的方式，下面是阉割版的flexabl.js -->
   <!-- 因为flexabl.js是以750为设备宽度的为默认值，分成10份 -->
   <!-- 所以1rem为75px -->
