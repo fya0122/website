@@ -6,6 +6,109 @@
   .mobile {
     display: block;
   }
+  .mobile .mobile-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    background: #fff;
+    padding: 16px 24px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 0 rgba(226, 226, 226, 0.5);
+  }
+  .mobile-top-bar .left {
+    display: flex;
+    align-items: center;
+  }
+  .mobile-top-bar .left img {
+    width: 84px;
+    height: 84px;
+    margin-right: 20px;
+  }
+  .mobile-top-bar .left .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mobile-top-bar .left .desc p:first-child {
+    color: #fb4282;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  .mobile-top-bar .left .desc p:last-child {
+    color: #ccc;
+    font-size: 16px;
+  }
+  .mobile-top-bar .right .mobile-download-btn {
+    background-image: linear-gradient(45deg, #ff2e9c 0%, #ff2b51 100%);
+    box-shadow: 0 5px 14px 0 rgba(255, 67, 132, 0.36);
+    border-radius: 170px;
+    color: #fff;
+    font-size: 28px;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: 800;
+  }
+  .mobile-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 240px;
+    margin-bottom: 80px;
+  }
+  .mobile-logo .left {
+    margin-right: 20px
+  }
+  .mobile-logo .left img {
+    width: 160px;
+    height: 160px;
+  }
+  .mobile-logo .right {
+    color: #cacaca;
+    font-size: 16px;
+  }
+  .mobile-logo .right img {
+    width: 200px;
+    height: 80px;
+  }
+  .mobile-logo .right p:last-child {
+    opacity: 0.7;
+  }
+  .mobile-slogan {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 800px;
+    text-align: center;
+  }
+  .mobile-slogan .slogan-1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 24px;
+  }
+  .slogan-1 p:first-child {
+    margin-bottom: 10px; 
+  }
+  .mobile-slogan .slogan-2 {
+    font-size: 28px;
+    color: #fff;
+  }
+  .mobile-download {
+    background-color: #fff;
+    border-radius: 150px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    width: 650px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    color: #fb4282;
+    margin: 0 auto;
+    margin-top: 88px;
+    font-size: 42px;
+    font-weight: 800;
+  }
   .mobile-nav {
     display: flex;
     justify-content: space-around;
